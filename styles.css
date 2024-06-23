@@ -1,0 +1,249 @@
+/* Body Styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 180vh;
+}
+
+/* Headings Styling */
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    margin-bottom: 18px;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 18px;
+    font-size: 1.5em;
+}
+
+/* Header Image Styling */
+.header-image {
+    margin-right: 2px;
+    max-width: 80px;
+    height: auto;
+}
+
+/* Form Styling */
+form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+}
+
+/* General Div Styling */
+div {
+    margin-bottom: 12px;
+}
+
+/* Label Styling */
+label {
+    margin-left: 8px;
+    color: #555;
+    font-size: 1em;
+}
+
+/* Input Checkbox Styling */
+input[type="checkbox"] {
+    margin-right: 8px;
+    transform: scale(1.2);
+}
+
+/* Button Styling */
+button,
+.satisfeito-btn,
+.trabalhos-realizados-btn {
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #007BFF;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Specific Button Styling */
+.satisfeito-btn,
+.trabalhos-realizados-btn {
+    display: block;
+    position: fixed;
+    left: 10px;
+    z-index: 999;
+}
+
+.satisfeito-btn {
+    bottom: 10px;
+}
+#texto {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+    left: 160px;
+    background-color: white;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+    width: auto;
+    box-sizing: border-box;
+    z-index: 999;
+}
+.trabalhos-realizados-btn {
+    background-color: #28a745;
+    bottom: 10px;
+    left: 200px;
+}
+
+/* Total Price Styling */
+#total-price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+    left: 10px;
+    background-color: white;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    width: auto;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+/* Employee Control Styling */
+.employee-control {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.employee-control button {
+    margin: 0 8px;
+    padding: 5px 15px;
+}
+
+.employee-count {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* More Options Styling */
+#more-options-montador,
+#more-options-domestica {
+    padding-left: 18px;
+    margin-top: 8px;
+    display: none;
+}
+
+/* Modal Styling */
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal div {
+    background: #fff;
+    padding: 18px;
+    border-radius: 6px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#modal h2 {
+    margin-top: 0;
+}
+
+/* Modal Input and Textarea Styling */
+#modal input,
+#modal textarea {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#modal button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Trabalhos Realizados Modal Styling */
+#trabalhos-modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#trabalhos-modal .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto 0;
+    padding: 40px;
+    border: 1px solid #888;
+    width: 40%;
+    height: auto;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+
+
+#trabalhos-modal .modal-content img,
+#trabalhos-modal .modal-content video {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#trabalhos-modal .modal-content h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
